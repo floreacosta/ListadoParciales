@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListadoParciales.Bienvenido">
+	<StackLayout Padding="20">
+		<Label Text="Agenda de parciales" />
+		<Entry Placeholder="Alumno" x:Name="nombreAlumno" />
+		<Entry Placeholder="Institución" x:Name="nombreInstitucion" />
+		<Button Clicked="btn_guardar_usuario" x:Name="btnGuardarUsuario" Text="Continuar" />
+	</StackLayout>
+</ContentPage>

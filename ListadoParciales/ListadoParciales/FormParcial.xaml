@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListadoParciales.FormParcial">
+	<ScrollView>
+		<StackLayout Padding="40" Spacing="10">
+			<Label Text="Agregar una nuevo Parcial" />
+
+			<StackLayout>
+				<Label Text="Id" />
+				<Entry x:Name="id" Text="{Binding id}" />
+			</StackLayout>
+
+			<StackLayout>
+				<Label Text="Materia" />
+				<Entry x:Name="materia" Text="{Binding materia}" />
+			</StackLayout>
+
+			<StackLayout>
+				<Label Text="Temas" />
+				<Entry x:Name="temas" Text="{Binding temas}" />
+			</StackLayout>
+
+			<StackLayout>
+				<Label Text="Fecha" />
+				<Entry x:Name="fecha" Text="{Binding fecha}" />
+			</StackLayout>
+
+			<Button x:Name="btnCancelarParcial" Clicked="btn_cancelar_parcial" Text="Cancelar"></Button>
+			<Button x:Name="btnAgregarParcial" Clicked="btn_agregar_parcial" Text="Agregar Parcial"></Button>
+		</StackLayout>
+	</ScrollView>
+</ContentPage>

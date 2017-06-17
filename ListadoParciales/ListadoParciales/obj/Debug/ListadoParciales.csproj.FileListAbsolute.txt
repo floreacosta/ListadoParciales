@@ -1,0 +1,16 @@
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\ListadoParciales.dll
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\ListadoParciales.pdb
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.csprojResolveAssemblyReference.cache
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.dll
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.pdb
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.Bienvenido.xaml.g.cs
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.ListadoParcial.xaml.g.cs
+c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.FormParcial.xaml.g.cs
