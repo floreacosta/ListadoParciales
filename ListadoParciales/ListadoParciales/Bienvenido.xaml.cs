@@ -24,7 +24,7 @@ namespace ListadoParciales
 			{
 				// DisplayAlert("Prueba", nombre, "Continuar");
 
-				var estudianteActual = new Estudiante
+				var estudianteActual = new Estudiante ()
 				{
 					nombreEstudiante = nombre,
 					nombreInstitucion = institucion

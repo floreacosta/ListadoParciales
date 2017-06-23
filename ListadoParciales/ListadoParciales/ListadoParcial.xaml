@@ -6,14 +6,13 @@
 		<StackLayout Padding="20">
 			<Label Text="{Binding nombreEstudiante}" />
 			<Label Text="{Binding nombreInstitucion}" />
-			<Label Text="¿Cómo estás? Bienvenido a tu listado de Parciales"/>
-
-			<ListView x:Name="ParcialesList">
+			<Label Text="¿Cómo estás? Bienvenido!"/>
+			
+			
+			<ListView x:Name="ParcialesList" SeparatorVisibility="Default" SelectedItem="{Binding onSelectedItem, Mode=TwoWay}">
 				<ListView.ItemTemplate>
 					<DataTemplate>
-						<TextCell Text="{Binding materia}" />
-						<TextCell Text="{Binding temas}" />
-						<TextCell Text="{Binding fecha}" />
+						<TextCell Text="{Binding materia}" Detail="{Binding temas}" />
 					</DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>

@@ -67,5 +67,5 @@ c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParc
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\obj\Debug\ListadoParciales.Droid.dll.mdb
-c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\bin\Debug\ListadoParciales.Droid.dll.mdb
+C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\obj\Debug\ListadoParciales.Droid.dll.mdb
+C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Droid\bin\Debug\ListadoParciales.Droid.dll.mdb
