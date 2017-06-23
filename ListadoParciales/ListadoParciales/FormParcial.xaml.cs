@@ -11,23 +11,30 @@ namespace ListadoParciales
 {
 	public partial class FormParcial : ContentPage
 	{
-		public FormParcial(Parcial p)
+		public FormParcial()
 		{
 			InitializeComponent();
 		}
 
-		//int id = 0;
-
 		private void btn_agregar_parcial(object sender, EventArgs e)
 		{
-			//if (!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(institucion))
-			//{
-			//	DisplayAlert("Prueba", nombre, "Continuar");
+			var idNuevo = Int32.Parse(id.Text);
+			var materiaNuevo = materia.Text;
+			var temasNuevo = temas.Text;
+			var fechaNuevo = fecha.Text;
 
-			//	var misParciales = new ListadoParcial(new Estudiante { nombreEstudiante = "Florencia", nombreInstitucion = "Unlam" });
+			var nuevoParcial = new Parcial() { id = idNuevo, materia = materiaNuevo, temas = temasNuevo, fecha = fechaNuevo };
 
-			//	this.Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(estudianteActual)));
-			//}
+			if (nuevoParcial != null)
+			{
+				// investigar sobre  INotifyPropertyChanged para pasar el mismo listado a todas las vistas
+				// y poder borrarle o agregarle nuevos items de parciales
+				((NavigationPage)this.Parent).PushAsync(new ListadoParcial(new Estudiante() { nombreEstudiante = "Florencia", nombreInstitucion = "Unlam" }));
+			}
+		}
+
+		private void btn_cancelar_parcial(object sender, EventArgs e)
+		{
 		}
 	}
 

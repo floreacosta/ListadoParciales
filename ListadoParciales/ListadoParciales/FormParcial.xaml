@@ -4,27 +4,19 @@
              x:Class="ListadoParciales.FormParcial">
 	<ScrollView>
 		<StackLayout Padding="40" Spacing="10">
-			<Label Text="Agregar una nuevo Parcial" />
+			<Label Text="Agregar un nuevo Parcial" />
 
-			<StackLayout>
-				<Label Text="Id" />
-				<Entry x:Name="id" Text="{Binding id}" />
-			</StackLayout>
+			<Label Text="Id" />
+			<Entry x:Name="id" Text="{Binding id}" />
 
-			<StackLayout>
-				<Label Text="Materia" />
-				<Entry x:Name="materia" Text="{Binding materia}" />
-			</StackLayout>
+			<Label Text="Materia" />
+			<Entry x:Name="materia" Text="{Binding materia}" />
 
-			<StackLayout>
-				<Label Text="Temas" />
-				<Entry x:Name="temas" Text="{Binding temas}" />
-			</StackLayout>
+			<Label Text="Temas" />
+			<Entry x:Name="temas" Text="{Binding temas}" />
 
-			<StackLayout>
-				<Label Text="Fecha" />
-				<Entry x:Name="fecha" Text="{Binding fecha}" />
-			</StackLayout>
+			<Label Text="Fecha" />
+			<Entry x:Name="fecha" Text="{Binding fecha}" />
 
 			<Button x:Name="btnCancelarParcial" Clicked="btn_cancelar_parcial" Text="Cancelar"></Button>
 			<Button x:Name="btnAgregarParcial" Clicked="btn_agregar_parcial" Text="Agregar Parcial"></Button>

@@ -7,15 +7,22 @@
 			<Label Text="{Binding nombreEstudiante}" />
 			<Label Text="{Binding nombreInstitucion}" />
 			<Label Text="¿Cómo estás? Bienvenido!"/>
-			
-			
+			<Button Clicked="btn_form_parcial" x:Name="btnFormParcial" Text="Nuevo Parcial" />
+
 			<ListView x:Name="ParcialesList" SeparatorVisibility="Default" SelectedItem="{Binding onSelectedItem, Mode=TwoWay}">
 				<ListView.ItemTemplate>
 					<DataTemplate>
-						<TextCell Text="{Binding materia}" Detail="{Binding temas}" />
+						<ViewCell>
+							<StackLayout Padding="20">
+								<Label Text="{Binding materia}"></Label>
+								<Label Text="{Binding temas}"></Label>
+								<Label Text="{Binding fecha}"></Label>
+							</StackLayout>
+						</ViewCell>
 					</DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>
+
 		</StackLayout>
 	</ScrollView>
 </ContentPage>

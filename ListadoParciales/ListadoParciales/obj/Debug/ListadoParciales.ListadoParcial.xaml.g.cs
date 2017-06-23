@@ -17,11 +17,15 @@ namespace ListadoParciales {
     public partial class ListadoParcial : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnFormParcial;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView ParcialesList;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ListadoParcial));
+            btnFormParcial = this.FindByName<global::Xamarin.Forms.Button>("btnFormParcial");
             ParcialesList = this.FindByName<global::Xamarin.Forms.ListView>("ParcialesList");
         }
     }

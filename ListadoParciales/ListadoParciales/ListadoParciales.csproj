@@ -47,6 +47,7 @@
       <DependentUpon>ListadoParcial.xaml</DependentUpon>
     </Compile>
     <Compile Include="Parcial.cs" />
+    <Compile Include="Parciales.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
