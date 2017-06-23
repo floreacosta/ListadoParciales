@@ -20,7 +20,6 @@ namespace ListadoParciales
 
 		private void btn_agregar_parcial(object sender, EventArgs e)
 		{
-
 			//if (!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(institucion))
 			//{
 			//	DisplayAlert("Prueba", nombre, "Continuar");
