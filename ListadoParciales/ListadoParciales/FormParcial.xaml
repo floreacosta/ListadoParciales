@@ -15,8 +15,14 @@
 			<Label Text="Fecha" />
 			<Entry x:Name="fecha" Text="{Binding fecha}" />
 
-			<Button x:Name="btnCancelarParcial" Clicked="btn_cancelar_parcial" Text="Cancelar"></Button>
+			<Label Text="Nombre del Profesor" />
+			<Entry x:Name="nombreProfesor" Text="{Binding profesor.nombre}" />
+
+			<Label Text="Email del Profesor" />
+			<Entry x:Name="emailProfesor" Text="{Binding profesor.email}" />
+
 			<Button x:Name="btnAgregarParcial" Clicked="btn_agregar_parcial" Text="Agregar Parcial"></Button>
+			<Button x:Name="btnCancelarParcial" Clicked="btn_cancelar_parcial" Text="Cancelar"></Button>
 		</StackLayout>
 	</ScrollView>
 </ContentPage>

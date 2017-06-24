@@ -9,6 +9,9 @@
 		<Label Text="{Binding materia}" />
 		<Label Text="{Binding temas}" />
 		<Label Text="{Binding fecha}" />
+		<Label Text="{Binding profesor.nombre}" />
+		<Label Text="{Binding profesor.email}" />
+		<Button Clicked="btn_email_profesor" x:Name="btnEnviarEmail" Text="Email al Profesor"></Button>
 		<Button Clicked="btn_eliminar_parcial" x:Name="btnEliminarParcial" Text="Eliminar"></Button>
 	</StackLayout>
 </ContentPage>

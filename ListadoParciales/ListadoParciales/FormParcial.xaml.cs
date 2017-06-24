@@ -26,8 +26,9 @@ namespace ListadoParciales
 			var materiaNuevo = materia.Text;
 			var temasNuevo = temas.Text;
 			var fechaNuevo = fecha.Text;
+			var profesorNuevo = new Profesor() { nombre = nombreProfesor.Text, email = emailProfesor.Text };
 
-			var nuevoParcial = new Parcial() { id = idNuevo, materia = materiaNuevo, temas = temasNuevo, fecha = fechaNuevo };
+			var nuevoParcial = new Parcial() { id = idNuevo, materia = materiaNuevo, temas = temasNuevo, fecha = fechaNuevo, profesor = profesorNuevo };
 
 			if (nuevoParcial != null)
 			{

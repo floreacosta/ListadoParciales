@@ -12,5 +12,6 @@ namespace ListadoParciales
 		public string materia { get; set; }
 		public string temas { get; set; }
 		public string fecha { get; set; }
+		public Profesor profesor { get; set; }
 	}
 }
