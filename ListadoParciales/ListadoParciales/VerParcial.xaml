@@ -4,7 +4,7 @@
              x:Class="ListadoParciales.VerParcial">
 
 	<StackLayout>
-		<Label Text="Parcial: {Binding id}" />
+		<Label Text="Parcial: " />
 
 		<Label Text="{Binding materia}" />
 		<Label Text="{Binding temas}" />

@@ -17,9 +17,6 @@ namespace ListadoParciales {
     public partial class FormParcial : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry id;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry materia;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -37,7 +34,6 @@ namespace ListadoParciales {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(FormParcial));
-            id = this.FindByName<global::Xamarin.Forms.Entry>("id");
             materia = this.FindByName<global::Xamarin.Forms.Entry>("materia");
             temas = this.FindByName<global::Xamarin.Forms.Entry>("temas");
             fecha = this.FindByName<global::Xamarin.Forms.Entry>("fecha");

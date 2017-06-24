@@ -6,9 +6,6 @@
 		<StackLayout Padding="40" Spacing="10">
 			<Label Text="Agregar un nuevo Parcial" />
 
-			<Label Text="Id" />
-			<Entry x:Name="id" Text="{Binding id}" />
-
 			<Label Text="Materia" />
 			<Entry x:Name="materia" Text="{Binding materia}" />
 

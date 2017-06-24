@@ -21,7 +21,8 @@ namespace ListadoParciales
 
 		private void btn_agregar_parcial(object sender, EventArgs e)
 		{
-			var idNuevo = Int32.Parse(id.Text);
+			int idNumber = new Random().Next(0, 100);
+			var idNuevo = idNumber;
 			var materiaNuevo = materia.Text;
 			var temasNuevo = temas.Text;
 			var fechaNuevo = fecha.Text;
