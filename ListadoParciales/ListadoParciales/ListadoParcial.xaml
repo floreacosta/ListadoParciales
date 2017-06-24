@@ -17,6 +17,7 @@
 								<Label Text="{Binding materia}"></Label>
 								<Label Text="{Binding temas}"></Label>
 								<Label Text="{Binding fecha}"></Label>
+								<Button Clicked="btn_eliminar_parcial" x:Name="btnEliminarParcial" Text="Eliminar"></Button>
 							</StackLayout>
 						</ViewCell>
 					</DataTemplate>

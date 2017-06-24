@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,14 +10,14 @@ namespace ListadoParciales
 	public class Parciales
 	{
 
-		public List<Parcial> listadoParciales = new List<Parcial>();
+		public ObservableCollection<Parcial> listadoParciales = new ObservableCollection<Parcial>();
 
-		public List<Parcial> getListadoParcial()
+		public ObservableCollection<Parcial> getListadoParcial()
 		{
 			return listadoParciales;
 		}
 
-		public List<Parcial> cargarListadoParciales(Parcial p)
+		public ObservableCollection<Parcial> cargarListadoParciales(Parcial p)
 		{
 			listadoParciales.Add(p);
 			return listadoParciales;

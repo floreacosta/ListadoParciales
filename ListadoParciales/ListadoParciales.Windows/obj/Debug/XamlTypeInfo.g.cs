@@ -624,3 +624,5 @@ namespace ListadoParciales.Windows.ListadoParciales_Windows_XamlTypeInfo
 }
 
 
+
+

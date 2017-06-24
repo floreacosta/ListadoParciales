@@ -11,9 +11,12 @@ namespace ListadoParciales
 {
 	public partial class FormParcial : ContentPage
 	{
-		public FormParcial()
+		ObservableCollection<Parcial> listadoParciales;
+		public FormParcial(ObservableCollection<Parcial> parciales)
 		{
 			InitializeComponent();
+			BindingContext = parciales;
+			listadoParciales = parciales;
 		}
 
 		private void btn_agregar_parcial(object sender, EventArgs e)
@@ -27,9 +30,10 @@ namespace ListadoParciales
 
 			if (nuevoParcial != null)
 			{
-				// investigar sobre  INotifyPropertyChanged para pasar el mismo listado a todas las vistas
-				// y poder borrarle o agregarle nuevos items de parciales
-				((NavigationPage)this.Parent).PushAsync(new ListadoParcial(new Estudiante() { nombreEstudiante = "Florencia", nombreInstitucion = "Unlam" }));
+				listadoParciales.Add(nuevoParcial);
+				((NavigationPage)this.Parent).PushAsync(
+					new ListadoParcial(new Estudiante() { nombreEstudiante = "Florencia", nombreInstitucion = "Unlam" }, listadoParciales
+				));
 			}
 		}
 

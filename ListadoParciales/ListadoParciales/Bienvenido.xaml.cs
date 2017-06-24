@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,7 +31,8 @@ namespace ListadoParciales
 					nombreInstitucion = institucion
 				};
 
-				this.Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(estudianteActual)));
+				Parciales parciales = new Parciales();
+				this.Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(estudianteActual, parciales.listadoParciales)));
 			}
 		}
 	}
