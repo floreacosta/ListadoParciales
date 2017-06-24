@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListadoParciales.VerParcial">
+
+	<StackLayout>
+		<Label Text="Parcial: {Binding id}" />
+
+		<Label Text="{Binding materia}" />
+		<Label Text="{Binding temas}" />
+		<Label Text="{Binding fecha}" />
+		<Button Clicked="btn_eliminar_parcial" x:Name="btnEliminarParcial" Text="Eliminar"></Button>
+	</StackLayout>
+</ContentPage>

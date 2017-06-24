@@ -14,3 +14,4 @@ c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParc
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.Bienvenido.xaml.g.cs
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.ListadoParcial.xaml.g.cs
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.FormParcial.xaml.g.cs
+C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\obj\Debug\ListadoParciales.VerParcial.xaml.g.cs
