@@ -31,7 +31,16 @@ namespace ListadoParciales
 					!string.IsNullOrEmpty(emailProfesor.Text)
 				)
 			{
-				int idNumber = new Random().Next(0, 100);
+				int idCheck;
+				if (parcialEditar == null)
+				{
+					idCheck = new Random().Next(0, 100);
+				} else
+				{
+					idCheck = parcialEditar.id;
+				}
+
+				int idNumber = idCheck;
 				var idNuevo = idNumber;
 				var materiaNuevo = materia.Text;
 				var temasNuevo = temas.Text;
@@ -40,8 +49,14 @@ namespace ListadoParciales
 
 				var nuevoParcial = new Parcial() { id = idNuevo, materia = materiaNuevo, temas = temasNuevo, fecha = fechaNuevo, profesor = profesorNuevo };
 
+				bool existeParcial = nuevoParcial.existeParcialEnListado(listadoParciales, nuevoParcial.id);
+				if (existeParcial)
+				{
+					listadoParciales.Remove(parcialEditar);
+				}
+
 				listadoParciales.Add(nuevoParcial);
-				((NavigationPage)this.Parent).PushAsync(new ListadoParcial(listadoParciales));
+				Navigation.PushModalAsync(new ListadoParcial(listadoParciales));
 			}
 		}
 

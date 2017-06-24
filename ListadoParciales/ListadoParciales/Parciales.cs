@@ -25,7 +25,7 @@ namespace ListadoParciales
 
 		public Parcial conseguirParcialPorId(int id)
 		{
-			var parcialAconseguir = new Parcial();
+			Parcial parcialAconseguir = new Parcial();
 
 			for (int i = 0; i < listadoParciales.Count; i++)
 			{
