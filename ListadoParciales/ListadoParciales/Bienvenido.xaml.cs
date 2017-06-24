@@ -32,7 +32,7 @@ namespace ListadoParciales
 				};
 
 				Parciales parciales = new Parciales();
-				this.Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(estudianteActual, parciales.listadoParciales)));
+				this.Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(parciales.listadoParciales, estudianteActual)));
 			}
 		}
 	}

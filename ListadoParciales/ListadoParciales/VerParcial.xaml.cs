@@ -24,7 +24,12 @@ namespace ListadoParciales
 		private void btn_eliminar_parcial(object sender, EventArgs e)
 		{
 			listadoParciales.Remove(miParcial);
-			Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(new Estudiante() { nombreEstudiante = "Florencia", nombreInstitucion = "Unlam" }, listadoParciales)));
+			Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(listadoParciales)));
+		}
+
+		private void btn_editar_parcial(object sender, EventArgs e)
+		{
+			((NavigationPage)this.Parent).PushAsync(new FormParcial (listadoParciales, miParcial));
 		}
 
 		private void btn_email_profesor(object sender, EventArgs e)

@@ -17,6 +17,9 @@ namespace ListadoParciales {
     public partial class VerParcial : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnEditarEmail;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button btnEnviarEmail;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -25,6 +28,7 @@ namespace ListadoParciales {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(VerParcial));
+            btnEditarEmail = this.FindByName<global::Xamarin.Forms.Button>("btnEditarEmail");
             btnEnviarEmail = this.FindByName<global::Xamarin.Forms.Button>("btnEnviarEmail");
             btnEliminarParcial = this.FindByName<global::Xamarin.Forms.Button>("btnEliminarParcial");
         }

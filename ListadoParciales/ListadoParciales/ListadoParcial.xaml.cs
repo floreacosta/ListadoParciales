@@ -12,7 +12,7 @@ namespace ListadoParciales
 	public partial class ListadoParcial : ContentPage
 	{
 		ObservableCollection<Parcial> listadoParciales;
-		public ListadoParcial(Estudiante estudianteActual, ObservableCollection<Parcial> parciales)
+		public ListadoParcial(ObservableCollection<Parcial> parciales, Estudiante estudianteActual = null)
 		{
 			InitializeComponent();
 			BindingContext = estudianteActual;
@@ -21,12 +21,15 @@ namespace ListadoParciales
 			ParcialesList.ItemsSource = listadoParciales;
 			ParcialesList.ItemSelected += (sender, e) =>
 				{
-					if (e.SelectedItem == null) return; // don't do anything if we just de-selected the row
+					if (e.SelectedItem != null) {
+						((ListView)sender).SelectedItem = null;
+					} else {
+						return;
+					};
+
 					Parcial parcialAVer = (Parcial)e.SelectedItem;
-					Navigation.PushModalAsync(new NavigationPage(new VerParcial(parcialAVer, listadoParciales)));
-					//listadoParciales.RemoveAt(aBorrar.id);
-					//await DisplayAlert(e.SelectedItem, e.SelectedItem + " row was selected", "OK");
-					//((ListView)sender).SelectedItem = null; // de-select the row
+
+					((NavigationPage)this.Parent).PushAsync(new NavigationPage(new VerParcial(parcialAVer, listadoParciales)));
 				};
 		}
 

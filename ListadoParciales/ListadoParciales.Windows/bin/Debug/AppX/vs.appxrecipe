@@ -34,11 +34,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\ListadoParciales.Windows.exe">
       <PackagePath>ListadoParciales.Windows.exe</PackagePath>
-      <Modified>2017-06-24T05:02:24.638</Modified>
+      <Modified>2017-06-24T05:58:49.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\ListadoParciales.dll">
       <PackagePath>ListadoParciales.dll</PackagePath>
-      <Modified>2017-06-24T05:02:23.594</Modified>
+      <Modified>2017-06-24T05:58:48.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
