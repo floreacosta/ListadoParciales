@@ -12,7 +12,7 @@ namespace ListadoParciales
 		public int id { get; set; }
 		public string materia { get; set; }
 		public string temas { get; set; }
-		public string fecha { get; set; }
+		public DateTime fecha { get; set; }
 		public Profesor profesor { get; set; }
 
 		public bool existeParcialEnListado(ObservableCollection<Parcial> listadoParciales, int id)
@@ -25,14 +25,6 @@ namespace ListadoParciales
 				}
 			}
 			return false;
-			//	for (int i = 0; i < listadoParciales.Count; i++)
-			//	{
-			//		if (listadoParciales[i].id == id)
-			//		{
-			//			return true;
-			//		}
-			//	}
-			//	return false;
 		}
 	}
 }

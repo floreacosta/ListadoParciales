@@ -29,7 +29,7 @@ namespace ListadoParciales
 
 					Parcial parcialAVer = (Parcial)e.SelectedItem;
 
-					((NavigationPage)this.Parent).PushAsync(new NavigationPage(new VerParcial(parcialAVer, listadoParciales)));
+					Navigation.PushModalAsync(new NavigationPage(new VerParcial(parcialAVer, listadoParciales)));
 				};
 		}
 

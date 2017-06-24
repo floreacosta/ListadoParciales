@@ -26,7 +26,6 @@ namespace ListadoParciales
 		{
 			if (!string.IsNullOrEmpty(materia.Text) &&
 					!string.IsNullOrEmpty(temas.Text) &&
-					!string.IsNullOrEmpty(fecha.Text) &&
 					!string.IsNullOrEmpty(nombreProfesor.Text) &&
 					!string.IsNullOrEmpty(emailProfesor.Text)
 				)
@@ -44,7 +43,7 @@ namespace ListadoParciales
 				var idNuevo = idNumber;
 				var materiaNuevo = materia.Text;
 				var temasNuevo = temas.Text;
-				var fechaNuevo = fecha.Text;
+				var fechaNuevo = fechaParcial;
 				var profesorNuevo = new Profesor() { nombre = nombreProfesor.Text, email = emailProfesor.Text };
 
 				var nuevoParcial = new Parcial() { id = idNuevo, materia = materiaNuevo, temas = temasNuevo, fecha = fechaNuevo, profesor = profesorNuevo };
@@ -58,6 +57,12 @@ namespace ListadoParciales
 				listadoParciales.Add(nuevoParcial);
 				Navigation.PushModalAsync(new ListadoParcial(listadoParciales));
 			}
+		}
+
+		DateTime fechaParcial;
+		void onSelectedDate (object sender, Xamarin.Forms.DateChangedEventArgs e)
+		{
+			fechaParcial = e.NewDate; ;
 		}
 
 		private void btn_cancelar_parcial(object sender, EventArgs e)

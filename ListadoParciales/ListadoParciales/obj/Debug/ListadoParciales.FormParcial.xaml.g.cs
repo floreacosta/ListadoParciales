@@ -23,7 +23,7 @@ namespace ListadoParciales {
         private global::Xamarin.Forms.Entry temas;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry fecha;
+        private global::Xamarin.Forms.DatePicker fecha;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry nombreProfesor;
@@ -42,7 +42,7 @@ namespace ListadoParciales {
             this.LoadFromXaml(typeof(FormParcial));
             materia = this.FindByName<global::Xamarin.Forms.Entry>("materia");
             temas = this.FindByName<global::Xamarin.Forms.Entry>("temas");
-            fecha = this.FindByName<global::Xamarin.Forms.Entry>("fecha");
+            fecha = this.FindByName<global::Xamarin.Forms.DatePicker>("fecha");
             nombreProfesor = this.FindByName<global::Xamarin.Forms.Entry>("nombreProfesor");
             emailProfesor = this.FindByName<global::Xamarin.Forms.Entry>("emailProfesor");
             btnAgregarParcial = this.FindByName<global::Xamarin.Forms.Button>("btnAgregarParcial");
