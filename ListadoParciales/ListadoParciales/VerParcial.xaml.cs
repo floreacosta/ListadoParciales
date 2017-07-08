@@ -13,23 +13,25 @@ namespace ListadoParciales
 	{
 		ObservableCollection<Parcial> listadoParciales;
 		Parcial miParcial;
-		public VerParcial(Parcial parcial, ObservableCollection<Parcial> parciales)
+		Estudiante est;
+		public VerParcial(Parcial parcial, ObservableCollection<Parcial> parciales, Estudiante estudiante = null)
 		{
 			InitializeComponent();
 			BindingContext = parcial;
 			miParcial = parcial;
 			listadoParciales = parciales;
+			est = estudiante;
 		}
 
 		private void btn_eliminar_parcial(object sender, EventArgs e)
 		{
 			listadoParciales.Remove(miParcial);
-			Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(listadoParciales)));
+			Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(listadoParciales, est)));
 		}
 
 		private void btn_editar_parcial(object sender, EventArgs e)
 		{
-			((NavigationPage)this.Parent).PushAsync(new FormParcial (listadoParciales, miParcial));
+			((NavigationPage)this.Parent).PushAsync(new FormParcial (listadoParciales, miParcial, est));
 		}
 
 		private void btn_email_profesor(object sender, EventArgs e)

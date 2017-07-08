@@ -13,12 +13,13 @@ namespace ListadoParciales
 	{
 		ObservableCollection<Parcial> listadoParciales;
 		Parcial parcialEditar;
-		public FormParcial(ObservableCollection<Parcial> parciales, Parcial parcial = null)
+		Estudiante est;
+		public FormParcial(ObservableCollection<Parcial> parciales, Parcial parcial = null, Estudiante estudiante = null)
 		{
 			InitializeComponent();
 			BindingContext = parcial;
 			listadoParciales = parciales;
-
+			est = estudiante;
 			parcialEditar = parcial;
 		}
 
@@ -55,19 +56,19 @@ namespace ListadoParciales
 				}
 
 				listadoParciales.Add(nuevoParcial);
-				Navigation.PushModalAsync(new ListadoParcial(listadoParciales));
+				Navigation.PushModalAsync(new ListadoParcial(listadoParciales, est));
 			}
 		}
 
 		DateTime fechaParcial;
 		void onSelectedDate (object sender, Xamarin.Forms.DateChangedEventArgs e)
 		{
-			fechaParcial = e.NewDate; ;
+			fechaParcial = e.NewDate;
 		}
 
 		private void btn_cancelar_parcial(object sender, EventArgs e)
 		{
-			Navigation.PushModalAsync(new ListadoParcial(listadoParciales));
+			Navigation.PushModalAsync(new ListadoParcial(listadoParciales, est));
 		}
 	}
 

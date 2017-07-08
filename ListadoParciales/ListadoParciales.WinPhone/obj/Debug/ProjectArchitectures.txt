@@ -1,2 +1,2 @@
-C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.WinPhone\ListadoParciales.WinPhone.csproj;neutral
-C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\ListadoParciales.csproj;neutral
+C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.WinPhone\ListadoParciales.WinPhone.csproj;neutral
+C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\ListadoParciales.csproj;neutral

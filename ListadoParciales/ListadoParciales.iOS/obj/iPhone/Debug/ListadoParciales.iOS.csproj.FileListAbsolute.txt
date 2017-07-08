@@ -52,5 +52,3 @@ c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParc
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.iOS\obj\iPhone\Debug\ListadoParciales.iOS.csprojResolveAssemblyReference.cache
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.iOS\obj\iPhone\Debug\ListadoParciales.iOS.exe
 c:\users\flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.iOS\obj\iPhone\Debug\ListadoParciales.iOS.pdb
-C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.iOS\obj\iPhone\Debug\ListadoParciales.iOS.exe.mdb
-C:\Users\Flor\documents\visual studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.iOS\bin\iPhone\Debug\ListadoParciales.iOS.exe.mdb
