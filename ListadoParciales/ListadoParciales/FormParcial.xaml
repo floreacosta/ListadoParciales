@@ -13,8 +13,7 @@
 			<Entry x:Name="temas" Text="{Binding temas}" />
 
 			<Label Text="Fecha" />
-			<DatePicker x:Name="fecha" Date="1990-01-01"
-									MinimumDate="1990-01-01" DateSelected="onSelectedDate">
+			<DatePicker x:Name="fecha" Date="{Binding hoy}" DateSelected="onSelectedDate">
 			</DatePicker>
 
 			<Label Text="Nombre del Profesor" />

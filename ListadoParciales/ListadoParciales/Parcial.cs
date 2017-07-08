@@ -14,6 +14,7 @@ namespace ListadoParciales
 		public string temas { get; set; }
 		public DateTime fecha { get; set; }
 		public Profesor profesor { get; set; }
+		public DateTime hoy = DateTime.Now.ToLocalTime();
 
 		public bool existeParcialEnListado(ObservableCollection<Parcial> listadoParciales, int id)
 		{

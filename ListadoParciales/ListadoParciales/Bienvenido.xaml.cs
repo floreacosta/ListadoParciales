@@ -23,8 +23,6 @@ namespace ListadoParciales
 
 			if (!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(institucion))
 			{
-				// DisplayAlert("Prueba", nombre, "Continuar");
-
 				var estudianteActual = new Estudiante ()
 				{
 					nombreEstudiante = nombre,

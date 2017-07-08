@@ -25,6 +25,7 @@ namespace ListadoParciales
 
 		private void btn_eliminar_parcial(object sender, EventArgs e)
 		{
+			DisplayAlert("Se borró", miParcial.materia, "Continuar");
 			listadoParciales.Remove(miParcial);
 			Navigation.PushModalAsync(new NavigationPage(new ListadoParcial(listadoParciales, est)));
 		}
@@ -36,7 +37,7 @@ namespace ListadoParciales
 
 		private void btn_email_profesor(object sender, EventArgs e)
 		{
-
+			DisplayAlert("Nuevo mail", miParcial.profesor.email, "Enviar");
 		}
 	}
 }

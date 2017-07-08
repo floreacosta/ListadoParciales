@@ -28,17 +28,17 @@
     <AppXManifest Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-08T03:54:25.691</Modified>
+      <Modified>2017-07-08T04:54:51.643</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\ListadoParciales.Windows.exe">
       <PackagePath>ListadoParciales.Windows.exe</PackagePath>
-      <Modified>2017-07-08T04:09:22.924</Modified>
+      <Modified>2017-07-08T04:57:36.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales\bin\Debug\ListadoParciales.dll">
       <PackagePath>ListadoParciales.dll</PackagePath>
-      <Modified>2017-07-08T04:08:19.404</Modified>
+      <Modified>2017-07-08T04:57:34.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -86,11 +86,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2017-07-08T03:53:50.512</Modified>
+      <Modified>2017-07-08T04:54:45.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2017-07-08T03:53:50.512</Modified>
+      <Modified>2017-07-08T04:54:45.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
@@ -123,7 +123,7 @@
     <AppxPackagedFile Include="C:\Users\Flor\Documents\Visual Studio 2015\Projects\ListadoParciales\ListadoParciales\ListadoParciales.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-08T03:54:24.035</Modified>
+      <Modified>2017-07-08T04:54:50.722</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
